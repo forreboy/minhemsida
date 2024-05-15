@@ -5,71 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Motar stellet</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-
-
-        .background-image {
-            background-image: url('din-bild-url.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            height: 100vh;
-        }
-
-
-        div {
-            color: rgb(62, 223, 13)
-        }
-
-
-
-
-        nav {
-            background-color: #444;
-            overflow: hidden;
-        }
-
-        nav a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        nav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-
-        .content {
-            padding: 20px;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+   <link rel="stylesheet" href="ccs saker/home.css">
 </head>
 
 <body>
@@ -90,12 +26,33 @@
         <p>Vi är ett bolag som sälljer bilar som passar dig.</p>
     </div>
 
-    <div class="background-image"></div>
+    <div class="background-image">
+        <img src="fin bil.jpg" alt="Bil på en bil" style="width:400px;height:300px;"> 
+        
+         
+    </div>
 
     <footer>
         <p>&copy; 2023 Your Website. All rights reserved.</p>
     </footer>
 
+    <div class="slideshow-container">
+        <div class="mySlides">
+          <img src="kawasaki cago.jpg" alt="Image 1">
+        </div>
+      
+        <div class="mySlides">
+          <img src="m5.jpg" alt="Image 2">
+        </div>
+      
+        <div class="mySlides">
+          <img src="rs4.jpg" alt="Image 3">
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+<script src="/slideIndex.js"></script>
 </body>
 
 </html>
